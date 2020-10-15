@@ -17,7 +17,7 @@ class _ParsingDataState extends State<ParsingData> {
 
   Future getData() async {
     var data;
-    String url = "https://gist.github.com/faisalaldajah/fc30e564d68bd9f9468d5a91936a7628.js";
+    String url = "https://jsonplaceholder.typicode.com/posts";
     Network network = Network(url);
     data = network.fetchData();
 
